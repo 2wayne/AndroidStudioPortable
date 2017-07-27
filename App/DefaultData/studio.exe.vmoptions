@@ -1,0 +1,23 @@
+#
+# *DO NOT* modify this file directly. If there is a value that you would like to override,
+# please add it to your user specific configuration file.
+#
+# See http://tools.android.com/tech-docs/configuration
+#
+-server
+-Xms256m
+-Xmx750m
+-XX:MaxPermSize=350m
+-XX:ReservedCodeCacheSize=240m
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-da
+-Djna.nosys=true
+-Djna.boot.library.path=
+
+-Djna.debug_load=true
+-Djna.debug_load.jna=true
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-XX:+HeapDumpOnOutOfMemoryError
+-Didea.jre.check=true
